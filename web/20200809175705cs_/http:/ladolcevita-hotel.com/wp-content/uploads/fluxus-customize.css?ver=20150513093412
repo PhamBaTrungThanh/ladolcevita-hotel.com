@@ -1,0 +1,66 @@
+.site-navigation .active > a,
+.site-navigation .current-menu-item > a,
+.site-navigation .current-menu-ancestor > a,
+.site-navigation .active .current-fluxus-project-type-ancestor > a,
+.current-fluxus_portfolio-parent > a,
+.nav-tip #key-right.flash,
+.nav-tip #key-left.flash,
+.navigation-paging .paging .current,
+.comment-actions a:hover,
+#wp-calendar tbody td a,
+.slide .style-default .button:hover,
+.slider-navigation li a.active,
+.slider-navigation li a:hover,
+.project .hover-box .button,
+.page-contacts .entry-content .button,
+#close-map,
+.tooltip,
+.fluxus-lightbox .lightbox-prev,
+.fluxus-lightbox .lightbox-next,
+.fluxus-lightbox .lightbox-close,
+.fluxus-lightbox .lightbox-resize,
+.page-contacts .entry-content .button:hover,
+#close-map:hover {
+  background-color: #006864;
+  color: #000000;
+}
+.reveal-modal,
+.navigation-paging .paging .current {
+  border-color: #006864;
+}
+.tooltip:after {
+  border-top-color: #006864;
+}
+.excerpt-more {
+  border-bottom-color: #006864;
+}
+.nav-tip #key-right.flash:before,
+.nav-tip #key-left.flash:before {
+  color: #000000;
+}
+.portfolio-navigation .other-projects .active .hover {
+  background: rgba(0,104,100,0.3);
+  color: #ffffff;
+}
+
+/*
+     FILE ARCHIVED ON 05:03:13 Aug 14, 2018 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 04:08:32 Feb 05, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  LoadShardBlock: 398.061 (3)
+  exclusion.robots.policy: 0.214
+  RedisCDXSource: 28.545
+  load_resource: 1202.217 (2)
+  CDXLines.iter: 20.237 (3)
+  PetaboxLoader3.resolve: 66.488 (2)
+  captures_list: 450.344
+  exclusion.robots: 0.229
+  PetaboxLoader3.datanode: 1440.511 (5)
+  esindex: 0.009
+*/

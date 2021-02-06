@@ -1,0 +1,40 @@
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Lato Light'), local('Lato-Light'), url(https://web.archive.org/web/20181011081443im_/https://fonts.gstatic.com/s/lato/v14/S6u9w4BMUTPHh7USSwiPHA.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Lato Regular'), local('Lato-Regular'), url(https://web.archive.org/web/20181011081443im_/https://fonts.gstatic.com/s/lato/v14/S6uyw4BMUTPHjx4wWw.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Lato Bold'), local('Lato-Bold'), url(https://web.archive.org/web/20181011081443im_/https://fonts.gstatic.com/s/lato/v14/S6u9w4BMUTPHh6UVSwiPHA.ttf) format('truetype');
+}
+
+/*
+     FILE ARCHIVED ON 08:14:43 Oct 11, 2018 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 04:08:31 Feb 05, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 1238.635
+  exclusion.robots: 0.103
+  exclusion.robots.policy: 0.095
+  RedisCDXSource: 3.503
+  esindex: 0.009
+  LoadShardBlock: 1216.161 (3)
+  PetaboxLoader3.datanode: 1228.013 (5)
+  CDXLines.iter: 16.541 (3)
+  load_resource: 413.17 (2)
+  PetaboxLoader3.resolve: 258.591 (2)
+*/
