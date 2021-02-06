@@ -254,26 +254,3 @@
     }
 
 }(jQuery));
-
-}
-/*
-     FILE ARCHIVED ON 06:33:29 Aug 14, 2018 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 04:24:09 Feb 05, 2021.
-     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
-
-     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
-     SECTION 108(a)(3)).
-*/
-/*
-playback timings (ms):
-  RedisCDXSource: 0.832
-  PetaboxLoader3.resolve: 105.639 (2)
-  esindex: 0.013
-  PetaboxLoader3.datanode: 146.585 (5)
-  CDXLines.iter: 29.295 (3)
-  LoadShardBlock: 136.869 (3)
-  captures_list: 171.547
-  exclusion.robots: 0.276
-  exclusion.robots.policy: 0.265
-  load_resource: 186.38 (2)
-*/

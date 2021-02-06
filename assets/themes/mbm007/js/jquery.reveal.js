@@ -171,28 +171,3 @@
         });//each call
     }//orbit plugin call
 })(jQuery);
-
-
-
-}
-/*
-     FILE ARCHIVED ON 05:42:26 Aug 14, 2018 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 04:24:25 Feb 05, 2021.
-     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
-
-     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
-     SECTION 108(a)(3)).
-*/
-/*
-playback timings (ms):
-  captures_list: 188.869
-  exclusion.robots: 0.143
-  exclusion.robots.policy: 0.134
-  RedisCDXSource: 1.652
-  esindex: 0.009
-  LoadShardBlock: 162.665 (3)
-  PetaboxLoader3.datanode: 187.652 (5)
-  CDXLines.iter: 22.023 (3)
-  load_resource: 220.42 (2)
-  PetaboxLoader3.resolve: 130.152 (2)
-*/

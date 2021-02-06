@@ -803,27 +803,3 @@
 		window.FastClick = FastClick;
 	}
 }());
-
-
-}
-/*
-     FILE ARCHIVED ON 03:58:09 Aug 14, 2018 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 04:24:35 Feb 05, 2021.
-     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
-
-     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
-     SECTION 108(a)(3)).
-*/
-/*
-playback timings (ms):
-  exclusion.robots: 0.222
-  exclusion.robots.policy: 0.204
-  LoadShardBlock: 66.974 (3)
-  esindex: 0.016
-  captures_list: 104.333
-  PetaboxLoader3.resolve: 41.19 (2)
-  PetaboxLoader3.datanode: 99.915 (5)
-  RedisCDXSource: 8.606
-  load_resource: 161.627 (2)
-  CDXLines.iter: 24.185 (3)
-*/

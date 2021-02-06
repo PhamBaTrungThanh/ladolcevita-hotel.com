@@ -195,26 +195,3 @@
   window.BurgerMenu = BurgerMenu;
 
 })(jQuery, window, document);
-
-}
-/*
-     FILE ARCHIVED ON 04:13:39 Aug 14, 2018 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 04:24:34 Feb 05, 2021.
-     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
-
-     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
-     SECTION 108(a)(3)).
-*/
-/*
-playback timings (ms):
-  PetaboxLoader3.resolve: 158.784 (2)
-  LoadShardBlock: 65.532 (3)
-  exclusion.robots: 0.358
-  captures_list: 90.335
-  load_resource: 226.95 (2)
-  esindex: 0.017
-  exclusion.robots.policy: 0.335
-  CDXLines.iter: 19.334 (3)
-  RedisCDXSource: 0.955
-  PetaboxLoader3.datanode: 104.62 (5)
-*/

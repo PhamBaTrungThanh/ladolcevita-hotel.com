@@ -1144,26 +1144,3 @@ if (typeof exports !== 'undefined') exports.iScroll = iScroll;
 else window.iScroll = iScroll;
 
 })(window, document);
-
-}
-/*
-     FILE ARCHIVED ON 04:13:54 Aug 14, 2018 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 04:24:29 Feb 05, 2021.
-     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
-
-     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
-     SECTION 108(a)(3)).
-*/
-/*
-playback timings (ms):
-  PetaboxLoader3.datanode: 86.309 (5)
-  RedisCDXSource: 1.116
-  LoadShardBlock: 71.375 (3)
-  exclusion.robots: 0.313
-  captures_list: 123.27
-  esindex: 0.022
-  load_resource: 149.395 (2)
-  exclusion.robots.policy: 0.291
-  CDXLines.iter: 43.628 (3)
-  PetaboxLoader3.resolve: 72.806 (2)
-*/

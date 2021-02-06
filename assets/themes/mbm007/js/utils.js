@@ -619,26 +619,3 @@ jQuery.extend(jQuery.easing, {
   }
 
 })( jQuery, window );
-
-}
-/*
-     FILE ARCHIVED ON 06:22:40 Aug 14, 2018 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 04:24:20 Feb 05, 2021.
-     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
-
-     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
-     SECTION 108(a)(3)).
-*/
-/*
-playback timings (ms):
-  captures_list: 113.922
-  RedisCDXSource: 1.908
-  CDXLines.iter: 24.581 (3)
-  exclusion.robots.policy: 0.213
-  esindex: 0.016
-  PetaboxLoader3.datanode: 136.101 (5)
-  LoadShardBlock: 82.742 (3)
-  PetaboxLoader3.resolve: 66.938 (2)
-  exclusion.robots: 0.227
-  load_resource: 178.452 (2)
-*/
