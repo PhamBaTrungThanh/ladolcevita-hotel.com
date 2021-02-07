@@ -1200,13 +1200,13 @@
     }
 
     .default-logo {
-        background-image: url(https://web.archive.org/web/20180814065627im_/http://ladolcevita-hotel.com/wp-content/themes/mbm007/images/logo@2x.png);
+        background-image: url(https://ladolcevita-hotel.com/assets/themes/mbm007/images/logo@2x.png);
         background-size: 100%;
     }
 
     #sharrre-project .icon,
     .btn-appreciate .icon {
-        background-image: url(https://web.archive.org/web/20180814065627im_/http://ladolcevita-hotel.com/wp-content/themes/mbm007/images/share-icons@2x.png);
+        background-image: url(https://ladolcevita-hotel.com/assets/themes/mbm007/images/share-icons@2x.png);
         background-size: 100%;
     }
 
@@ -1227,7 +1227,7 @@
     .sep,
     .footer-links .credits:before,
     .footer-links li:before {
-        background-image: url(https://web.archive.org/web/20180814065627im_/http://ladolcevita-hotel.com/wp-content/themes/mbm007/images/slash@2x.png);
+        background-image: url(https://ladolcevita-hotel.com/assets/themes/mbm007/images/slash@2x.png);
         background-size: auto 100%;
     }
 
