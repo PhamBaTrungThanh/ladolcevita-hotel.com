@@ -293,7 +293,7 @@
 	padding: 2px ;
 }
 
-.mapp-dir-icon { cursor: pointer; display: inline-block; vertical-align: middle; margin: 0; padding: 0; background: transparent url('https://web.archive.org/web/20180814063927im_/http://ladolcevita-hotel.com/wp-content/plugins/mappress-google-maps-for-wordpress/images/directions.png') no-repeat; }
+.mapp-dir-icon { cursor: pointer; display: inline-block; vertical-align: middle; margin: 0; padding: 0; background: transparent url('https://ladolcevita-hotel.com/assets/plugins/mappress-google-maps-for-wordpress/images/directions.png') no-repeat; }
 .mapp-dir-car { width: 15px; height: 12px; background-position: 0px -96px; }
 .mapp-dir-bus { width: 13px; height: 15px; background-position: 0px -426px; }
 .mapp-dir-walk { width: 10px; height: 16px; background-position: 0px -489px; }
@@ -302,7 +302,14 @@
 .mapp-dir-arrows { width: 10px; height: 12px; background-position: -10px -489px; }
 .mapp-dir-del { width: 7px; height: 7px; background-position: 0px -189px;  }
 
-.mapp-dir-letter { cursor: move; display: inline-block; vertical-align: middle; margin: 0; padding: 0; background: transparent url('https://web.archive.org/web/20180814063927im_/http://ladolcevita-hotel.com/wp-content/plugins/mappress-google-maps-for-wordpress/images/directions.png') no-repeat; }
+.mapp-dir-letter {
+	cursor: move;
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0;
+	padding: 0;
+	background: transparent url('https://ladolcevita-hotel.com/assets/plugins/mappress-google-maps-for-wordpress/images/directions.png') no-repeat;
+}
 .mapp-dir-a { width: 24px; height: 24px; background-position: 0px -140px; }
 .mapp-dir-b { width: 24px; height: 24px; background-position: 0px -72px; }
 .mapp-dir-dot { width: 9px; height: 10px; background-position: 0px -108px; }
@@ -422,7 +429,7 @@
 	width: 16px;
 	margin-left: 10px;
 	margin-right: 10px;
-	background: transparent url(https://web.archive.org/web/20180814063927im_/http://ladolcevita-hotel.com/wp-content/plugins/mappress-google-maps-for-wordpress/images/loading.gif) no-repeat center center;
+	background: transparent url(https://ladolcevita-hotel.com/assets/plugins/mappress-google-maps-for-wordpress/images/loading.gif) no-repeat center center;
 }
 
 .mapp-spinner-center {
@@ -434,7 +441,7 @@
 	top: 50%;
 	margin-left: -8px;
 	margin-top: -8px;
-	background: transparent url(https://web.archive.org/web/20180814063927im_/http://ladolcevita-hotel.com/wp-content/plugins/mappress-google-maps-for-wordpress/images/loading.gif) no-repeat center center;
+	background: transparent url(https://ladolcevita-hotel.com/assets/plugins/mappress-google-maps-for-wordpress/images/loading.gif) no-repeat center center;
 }
 
 .mapp-poi-list-nav {
@@ -446,30 +453,8 @@
 	color: #777;
 }
 
-.mapp-search-button { display: inline-block; vertical-align: middle; margin-left: 5px; margin-right: 5px; margin-top: 0px; margin-bottom: 0px; padding: 0; background: transparent url('https://web.archive.org/web/20180814063927im_/http://ladolcevita-hotel.com/wp-content/plugins/mappress-google-maps-for-wordpress/images/search.png') no-repeat center; width: 13px; height: 13px; }
-.mapp-next { display: inline-block; vertical-align: middle; margin-left: 10px; padding: 0; background: transparent url('https://web.archive.org/web/20180814063927im_/http://ladolcevita-hotel.com/wp-content/plugins/mappress-google-maps-for-wordpress/images/next.png') no-repeat; width: 22px; height: 22px; }
-.mapp-next-off { display: inline-block; vertical-align: middle; margin-left: 10px; padding: 0; background: transparent url('https://web.archive.org/web/20180814063927im_/http://ladolcevita-hotel.com/wp-content/plugins/mappress-google-maps-for-wordpress/images/next-off.png') no-repeat; width: 22px; height: 22px; }
-.mapp-prev { display: inline-block; vertical-align: middle; margin-right: 10px; padding: 0; background: transparent url('https://web.archive.org/web/20180814063927im_/http://ladolcevita-hotel.com/wp-content/plugins/mappress-google-maps-for-wordpress/images/prev.png') no-repeat; width: 22px; height: 22px; }
-.mapp-prev-off { display: inline-block; vertical-align: middle; margin-right: 10px; padding: 0; background: transparent url('https://web.archive.org/web/20180814063927im_/http://ladolcevita-hotel.com/wp-content/plugins/mappress-google-maps-for-wordpress/images/prev-off.png') no-repeat; width: 22px; height: 22px; }
-
-/*
-     FILE ARCHIVED ON 06:39:27 Aug 14, 2018 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 04:08:30 Feb 05, 2021.
-     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
-
-     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
-     SECTION 108(a)(3)).
-*/
-/*
-playback timings (ms):
-  LoadShardBlock: 212.127 (3)
-  load_resource: 293.568 (2)
-  exclusion.robots.policy: 0.123
-  RedisCDXSource: 0.644
-  captures_list: 235.522
-  CDXLines.iter: 19.751 (3)
-  PetaboxLoader3.resolve: 251.513 (4)
-  exclusion.robots: 0.132
-  PetaboxLoader3.datanode: 202.107 (5)
-  esindex: 0.011
-*/
+.mapp-search-button { display: inline-block; vertical-align: middle; margin-left: 5px; margin-right: 5px; margin-top: 0px; margin-bottom: 0px; padding: 0; background: transparent url('https://ladolcevita-hotel.com/assets/plugins/mappress-google-maps-for-wordpress/images/search.png') no-repeat center; width: 13px; height: 13px; }
+.mapp-next { display: inline-block; vertical-align: middle; margin-left: 10px; padding: 0; background: transparent url('https://ladolcevita-hotel.com/assets/plugins/mappress-google-maps-for-wordpress/images/next.png') no-repeat; width: 22px; height: 22px; }
+.mapp-next-off { display: inline-block; vertical-align: middle; margin-left: 10px; padding: 0; background: transparent url('https://ladolcevita-hotel.com/assets/plugins/mappress-google-maps-for-wordpress/images/next-off.png') no-repeat; width: 22px; height: 22px; }
+.mapp-prev { display: inline-block; vertical-align: middle; margin-right: 10px; padding: 0; background: transparent url('https://ladolcevita-hotel.com/assets/plugins/mappress-google-maps-for-wordpress/images/prev.png') no-repeat; width: 22px; height: 22px; }
+.mapp-prev-off { display: inline-block; vertical-align: middle; margin-right: 10px; padding: 0; background: transparent url('https://ladolcevita-hotel.com/assets/plugins/mappress-google-maps-for-wordpress/images/prev-off.png') no-repeat; width: 22px; height: 22px; }

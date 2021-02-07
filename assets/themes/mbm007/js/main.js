@@ -267,7 +267,7 @@
                     });
 
                     globalNav && globalNav.enableMouseWheelEvents();
-					//$( window ).resize();///web.archive.org/web/20180814043448/http://themee
+					//$( window ).resize();http://themee
                 }
 
             }, true, 'horizontal-page');

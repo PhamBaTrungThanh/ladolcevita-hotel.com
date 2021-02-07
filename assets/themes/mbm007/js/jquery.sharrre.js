@@ -110,15 +110,15 @@
   urlJson = {
     googlePlus: "",
     facebookShare: "",
-    facebook: "https://web.archive.org/web/20180814065155/https://graph.facebook.com/fql?q=SELECT%20url,%20normalized_url,%20share_count,%20like_count,%20comment_count,%20total_count,commentsbox_count,%20comments_fbid,%20click_count%20FROM%20link_stat%20WHERE%20url=%27{url}%27&callback=?",
-    //facebook : "https://web.archive.org/web/20180814065155/http://api.ak.facebook.com/restserver.php?v=1.0&method=links.getStats&urls={url}&format=json"
-    twitter: "https://web.archive.org/web/20180814065155/https://cdn.api.twitter.com/1/urls/count.json?url={url}&callback=?",
-    digg: "https://web.archive.org/web/20180814065155/https://services.digg.com/2.0/story.getInfo?links={url}&type=javascript&callback=?",
-    delicious: 'https://web.archive.org/web/20180814065155/http://feeds.delicious.com/v2/json/urlinfo/data?url={url}&callback=?',
-    //stumbleupon: "https://web.archive.org/web/20180814065155/http://www.stumbleupon.com/services/1.01/badge.getinfo?url={url}&format=jsonp&callback=?",
+    facebook: "https://graph.facebook.com/fql?q=SELECT%20url,%20normalized_url,%20share_count,%20like_count,%20comment_count,%20total_count,commentsbox_count,%20comments_fbid,%20click_count%20FROM%20link_stat%20WHERE%20url=%27{url}%27&callback=?",
+    //facebook : "http://api.ak.facebook.com/restserver.php?v=1.0&method=links.getStats&urls={url}&format=json"
+    twitter: "https://cdn.api.twitter.com/1/urls/count.json?url={url}&callback=?",
+    digg: "https://services.digg.com/2.0/story.getInfo?links={url}&type=javascript&callback=?",
+    delicious: 'https://feeds.delicious.com/v2/json/urlinfo/data?url={url}&callback=?',
+    //stumbleupon: "http://www.stumbleupon.com/services/1.01/badge.getinfo?url={url}&format=jsonp&callback=?",
     stumbleupon: "",
-    linkedin: "https://web.archive.org/web/20180814065155/https://www.linkedin.com/countserv/count/share?format=jsonp&url={url}&callback=?",
-    pinterest: "https://web.archive.org/web/20180814065155/https://api.pinterest.com/v1/urls/count.json?url={url}&callback=?"
+    linkedin: "https://www.linkedin.com/countserv/count/share?format=jsonp&url={url}&callback=?",
+    pinterest: "https://api.pinterest.com/v1/urls/count.json?url={url}&callback=?"
   },
 
   _loadFacebook = function (self) {
@@ -129,7 +129,7 @@
           var js, fjs = d.getElementsByTagName(s)[0];
           if (d.getElementById(id)) {return;}
           js = d.createElement(s); js.id = id;
-          js.src = '//web.archive.org/web/20180814065155/http://connect.facebook.net/'+lang+'/all.js#xfbml=1';
+          js.src = '//connect.facebook.net/'+lang+'/all.js#xfbml=1';
           fjs.parentNode.insertBefore(js, fjs);
         }(document, 'script', 'facebook-jssdk'));
       } else {
@@ -166,7 +166,7 @@
         loading = 1;
         (function() {
           var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
-          po.src = '//web.archive.org/web/20180814065155/http://apis.google.com/js/plusone.js';
+          po.src = '//apis.google.com/js/plusone.js';
           var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
         })();
 
@@ -188,12 +188,12 @@
           $buttons = $(self.element).find('.buttons'),
           url = sett.url !== '' ? encodeURI(sett.url) : encodeURI(self.options.url);
 
-      $buttons.append('<div class="button facebook"><iframe src="//web.archive.org/web/20180814065155/http://www.facebook.com/plugins/like.php?href=' + url + '&amp;action=like&amp;send=false&amp;layout=button_count&amp;width=110&amp;show_faces=false&amp;font&amp;colorscheme=light&amp;height=21&amp;appId=270151016331206" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width: 110px; height:21px;" allowTransparency="true"></iframe></div>');
+      $buttons.append('<div class="button facebook"><iframe src="//www.facebook.com/plugins/like.php?href=' + url + '&amp;action=like&amp;send=false&amp;layout=button_count&amp;width=110&amp;show_faces=false&amp;font&amp;colorscheme=light&amp;height=21&amp;appId=270151016331206" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width: 110px; height:21px;" allowTransparency="true"></iframe></div>');
       _loadFacebook(self);
     },
     twitter : function(self){
       var sett = self.options.buttons.twitter;
-      $(self.element).find('.buttons').append('<div class="button twitter"><a href="https://web.archive.org/web/20180814065155/https://twitter.com/share" class="twitter-share-button" data-url="'+(sett.url !== '' ? sett.url : self.options.url)+'" data-count="'+sett.count+'" data-text="'+self.options.text+'" data-via="'+sett.via+'" data-hashtags="'+sett.hashtags+'" data-related="'+sett.related+'" data-lang="'+sett.lang+'">Tweet</a></div>');
+      $(self.element).find('.buttons').append('<div class="button twitter"><a href=//twitter.com/share" class="twitter-share-button" data-url="'+(sett.url !== '' ? sett.url : self.options.url)+'" data-count="'+sett.count+'" data-text="'+self.options.text+'" data-via="'+sett.via+'" data-hashtags="'+sett.hashtags+'" data-related="'+sett.related+'" data-lang="'+sett.lang+'">Tweet</a></div>');
       var loading = 0;
       if(typeof twttr === 'undefined' && loading == 0){
         loading = 1;
@@ -201,18 +201,18 @@
           var twitterScriptTag = document.createElement('script');
           twitterScriptTag.type = 'text/javascript';
           twitterScriptTag.async = true;
-          twitterScriptTag.src = '//web.archive.org/web/20180814065155/http://platform.twitter.com/widgets.js';
+          twitterScriptTag.src = '//platform.twitter.com/widgets.js';
           var s = document.getElementsByTagName('script')[0];
           s.parentNode.insertBefore(twitterScriptTag, s);
         })();
       }
       else{
-        $.ajax({ url: '//web.archive.org/web/20180814065155/http://platform.twitter.com/widgets.js', dataType: 'script', cache:true}); //http://stackoverflow.com/q/6536108
+        $.ajax({ url: '//platform.twitter.com/widgets.js', dataType: 'script', cache:true}); //http://stackoverflow.com/q/6536108
       }
     },
     digg : function(self){
       var sett = self.options.buttons.digg;
-      $(self.element).find('.buttons').append('<div class="button digg"><a class="DiggThisButton '+sett.type+'" rel="nofollow external" href="https://web.archive.org/web/20180814065155/https://digg.com/submit?url='+encodeURIComponent((sett.url !== '' ? sett.url : self.options.url))+'"></a></div>');
+      $(self.element).find('.buttons').append('<div class="button digg"><a class="DiggThisButton '+sett.type+'" rel="nofollow external" href="https://digg.com/submit?url='+encodeURIComponent((sett.url !== '' ? sett.url : self.options.url))+'"></a></div>');
       var loading = 0;
       if(typeof __DBW === 'undefined' && loading == 0){
         loading = 1;
@@ -220,7 +220,7 @@
           var s = document.createElement('SCRIPT'), s1 = document.getElementsByTagName('SCRIPT')[0];
           s.type = 'text/javascript';
           s.async = true;
-          s.src = '//web.archive.org/web/20180814065155/http://widgets.digg.com/buttons.js';
+          s.src = '//widgets.digg.com/buttons.js';
           s1.parentNode.insertBefore(s, s1);
         })();
       }
@@ -244,7 +244,7 @@
       '<div class="button delicious"><div style="'+css+'font:12px Arial,Helvetica,sans-serif;cursor:pointer;color:#666666;display:inline-block;float:none;height:20px;line-height:normal;margin:0;padding:0;text-indent:0;vertical-align:baseline;">'+
       '<div style="'+cssCount+'background-color:#fff;margin-bottom:5px;overflow:hidden;text-align:center;border:1px solid #ccc;border-radius:3px;">'+count+'</div>'+
       '<div style="'+cssShare+'display:block;padding:0;text-align:center;text-decoration:none;width:50px;background-color:#7EACEE;border:1px solid #40679C;border-radius:3px;color:#fff;">'+
-      '<img src="https://web.archive.org/web/20180814065155/https://delicious.com/img/logo.png" height="10" width="10" alt="Delicious" /> Add</div></div></div>');
+      '<img src="https://delicious.com/img/logo.png" height="10" width="10" alt="Delicious" /> Add</div></div></div>');
 
       $(self.element).find('.delicious').on('click', function(){
         self.openPopup('delicious');
@@ -258,7 +258,7 @@
         loading = 1;
         (function() {
           var li = document.createElement('script');li.type = 'text/javascript';li.async = true;
-          li.src = '//web.archive.org/web/20180814065155/http://platform.stumbleupon.com/1/widgets.js';
+          li.src = '//platform.stumbleupon.com/1/widgets.js';
           var s = document.getElementsByTagName('script')[0];s.parentNode.insertBefore(li, s);
         })();
         s = window.setTimeout(function(){
@@ -280,7 +280,7 @@
         loading = 1;
         (function() {
           var li = document.createElement('script');li.type = 'text/javascript';li.async = true;
-          li.src = '//web.archive.org/web/20180814065155/http://platform.linkedin.com/in.js';
+          li.src = '//platform.linkedin.com/in.js';
           var s = document.getElementsByTagName('script')[0];s.parentNode.insertBefore(li, s);
         })();
       }
@@ -298,11 +298,11 @@
         }
       }
 
-      $(self.element).find('.buttons').append('<div class="button pinterest"><a href="https://web.archive.org/web/20180814065155/https://pinterest.com/pin/create/button/?url='+(sett.url !== '' ? sett.url : self.options.url)+'&description='+sett.description+'" class="pin-it-button" data-pin-do="buttonBookmark" count-layout="'+sett.layout+'">Pin It</a></div>');
+      $(self.element).find('.buttons').append('<div class="button pinterest"><a href="https://pinterest.com/pin/create/button/?url='+(sett.url !== '' ? sett.url : self.options.url)+'&description='+sett.description+'" class="pin-it-button" data-pin-do="buttonBookmark" count-layout="'+sett.layout+'">Pin It</a></div>');
 
       (function() {
         var li = document.createElement('script');li.type = 'text/javascript';li.async = true;
-        li.src = '//web.archive.org/web/20180814065155/http://assets.pinterest.com/js/pinit.js';
+        li.src = '//assets.pinterest.com/js/pinit.js';
         var s = document.getElementsByTagName('script')[0];s.parentNode.insertBefore(li, s);
       })();
     }
@@ -360,28 +360,28 @@
   ================================================== */
   popup = {
     googlePlus: function(opt){
-      window.open("https://web.archive.org/web/20180814065155/https://plus.google.com/share?hl="+opt.buttons.googlePlus.lang+"&url="+encodeURIComponent((opt.buttons.googlePlus.url !== '' ? opt.buttons.googlePlus.url : opt.url)), "", "toolbar=0, status=0, width=900, height=500");
+      window.open("https://plus.google.com/share?hl="+opt.buttons.googlePlus.lang+"&url="+encodeURIComponent((opt.buttons.googlePlus.url !== '' ? opt.buttons.googlePlus.url : opt.url)), "", "toolbar=0, status=0, width=900, height=500");
     },
     facebook: function(opt){
-      window.open("https://web.archive.org/web/20180814065155/https://www.facebook.com/sharer/sharer.php?u="+encodeURIComponent((opt.buttons.facebook.url !== '' ? opt.buttons.facebook.url : opt.url))+"&t="+opt.text+"", "", "toolbar=0, status=0, width=900, height=500");
+      window.open("https://www.facebook.com/sharer/sharer.php?u="+encodeURIComponent((opt.buttons.facebook.url !== '' ? opt.buttons.facebook.url : opt.url))+"&t="+opt.text+"", "", "toolbar=0, status=0, width=900, height=500");
     },
     twitter: function(opt){
-      window.open("https://web.archive.org/web/20180814065155/https://twitter.com/intent/tweet?text="+encodeURIComponent(opt.text)+"&url="+encodeURIComponent((opt.buttons.twitter.url !== '' ? opt.buttons.twitter.url : opt.url))+(opt.buttons.twitter.via !== '' ? '&via='+opt.buttons.twitter.via : ''), "", "toolbar=0, status=0, width=650, height=360");
+      window.open("https://twitter.com/intent/tweet?text="+encodeURIComponent(opt.text)+"&url="+encodeURIComponent((opt.buttons.twitter.url !== '' ? opt.buttons.twitter.url : opt.url))+(opt.buttons.twitter.via !== '' ? '&via='+opt.buttons.twitter.via : ''), "", "toolbar=0, status=0, width=650, height=360");
     },
     digg: function(opt){
-      window.open("https://web.archive.org/web/20180814065155/https://digg.com/tools/diggthis/submit?url="+encodeURIComponent((opt.buttons.digg.url !== '' ? opt.buttons.digg.url : opt.url))+"&title="+opt.text+"&related=true&style=true", "", "toolbar=0, status=0, width=650, height=360");
+      window.open("https://digg.com/tools/diggthis/submit?url="+encodeURIComponent((opt.buttons.digg.url !== '' ? opt.buttons.digg.url : opt.url))+"&title="+opt.text+"&related=true&style=true", "", "toolbar=0, status=0, width=650, height=360");
     },
     delicious: function(opt){
-      window.open('https://web.archive.org/web/20180814065155/https://www.delicious.com/save?v=5&noui&jump=close&url='+encodeURIComponent((opt.buttons.delicious.url !== '' ? opt.buttons.delicious.url : opt.url))+'&title='+opt.text, 'delicious', 'toolbar=no,width=550,height=550');
+      window.open('https://www.delicious.com/save?v=5&noui&jump=close&url='+encodeURIComponent((opt.buttons.delicious.url !== '' ? opt.buttons.delicious.url : opt.url))+'&title='+opt.text, 'delicious', 'toolbar=no,width=550,height=550');
     },
     stumbleupon: function(opt){
-      window.open('https://web.archive.org/web/20180814065155/https://www.stumbleupon.com/badge/?url='+encodeURIComponent((opt.buttons.delicious.url !== '' ? opt.buttons.delicious.url : opt.url)), 'stumbleupon', 'toolbar=no,width=550,height=550');
+      window.open('https://www.stumbleupon.com/badge/?url='+encodeURIComponent((opt.buttons.delicious.url !== '' ? opt.buttons.delicious.url : opt.url)), 'stumbleupon', 'toolbar=no,width=550,height=550');
     },
     linkedin: function(opt){
-      window.open('https://web.archive.org/web/20180814065155/https://www.linkedin.com/cws/share?url='+encodeURIComponent((opt.buttons.delicious.url !== '' ? opt.buttons.delicious.url : opt.url))+'&token=&isFramed=true', 'linkedin', 'toolbar=no,width=550,height=550');
+      window.open('https://www.linkedin.com/cws/share?url='+encodeURIComponent((opt.buttons.delicious.url !== '' ? opt.buttons.delicious.url : opt.url))+'&token=&isFramed=true', 'linkedin', 'toolbar=no,width=550,height=550');
     },
     pinterest: function(opt){
-      window.open('https://web.archive.org/web/20180814065155/https://pinterest.com/pin/create/button/?url='+encodeURIComponent((opt.buttons.pinterest.url !== '' ? opt.buttons.pinterest.url : opt.url))+'&media='+encodeURIComponent(opt.buttons.pinterest.media)+'&description='+opt.buttons.pinterest.description, 'pinterest', 'toolbar=no,width=700,height=300');
+      window.open('https://pinterest.com/pin/create/button/?url='+encodeURIComponent((opt.buttons.pinterest.url !== '' ? opt.buttons.pinterest.url : opt.url))+'&media='+encodeURIComponent(opt.buttons.pinterest.media)+'&description='+opt.buttons.pinterest.description, 'pinterest', 'toolbar=no,width=700,height=300');
     }
   };
 

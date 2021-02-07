@@ -220,9 +220,9 @@ website:   	http://www.themepunch.com
         -o-user-select: none;
 	}
 
-.tp-bannershadow.tp-shadow1 {	background:url(https://web.archive.org/web/20180814050138im_/http://ladolcevita-hotel.com/wp-content/plugins/revslider/rs-plugin/assets/shadow1.png) no-repeat; background-size:100%; width:890px; height:30px; bottom:-30px;}
-.tp-bannershadow.tp-shadow2 {	background:url(https://web.archive.org/web/20180814050138im_/http://ladolcevita-hotel.com/wp-content/plugins/revslider/rs-plugin/assets/shadow2.png) no-repeat; background-size:100%; width:890px; height:60px;bottom:-60px;}
-.tp-bannershadow.tp-shadow3 {	background:url(https://web.archive.org/web/20180814050138im_/http://ladolcevita-hotel.com/wp-content/plugins/revslider/rs-plugin/assets/shadow3.png) no-repeat; background-size:100%; width:890px; height:60px;bottom:-60px;}
+.tp-bannershadow.tp-shadow1 {	background:url(https://ladolcevita-hotel.com/assets/plugins/revslider/rs-plugin/assets/shadow1.png) no-repeat; background-size:100%; width:890px; height:30px; bottom:-30px;}
+.tp-bannershadow.tp-shadow2 {	background:url(https://ladolcevita-hotel.com/assets/plugins/revslider/rs-plugin/assets/shadow2.png) no-repeat; background-size:100%; width:890px; height:60px;bottom:-60px;}
+.tp-bannershadow.tp-shadow3 {	background:url(https://ladolcevita-hotel.com/assets/plugins/revslider/rs-plugin/assets/shadow3.png) no-repeat; background-size:100%; width:890px; height:60px;bottom:-60px;}
 
 
 /******************************
@@ -237,11 +237,11 @@ website:   	http://www.themepunch.com
 			height:30px;
 			cursor:pointer;
 			color:#fff !important; text-shadow:0px 1px 1px rgba(0, 0, 0, 0.6) !important; font-size:15px; line-height:45px !important;
-			background:url(https://web.archive.org/web/20180814050138im_/http://ladolcevita-hotel.com/wp-content/plugins/revslider/rs-plugin/images/gradient/g30.png) repeat-x top; font-family: arial, sans-serif; font-weight: bold; letter-spacing: -1px;
+			background:url(https://ladolcevita-hotel.com/assets/plugins/revslider/rs-plugin/images/gradient/g30.png) repeat-x top; font-family: arial, sans-serif; font-weight: bold; letter-spacing: -1px;
 			text-decoration:none;
 		}
 
-.tp-button.big			{	color:#fff; text-shadow:0px 1px 1px rgba(0, 0, 0, 0.6); font-weight:bold; padding:9px 20px; font-size:19px;  line-height:57px !important; background:url(https://web.archive.org/web/20180814050138im_/http://ladolcevita-hotel.com/wp-content/plugins/revslider/rs-plugin/images/gradient/g40.png) repeat-x top;}
+.tp-button.big			{	color:#fff; text-shadow:0px 1px 1px rgba(0, 0, 0, 0.6); font-weight:bold; padding:9px 20px; font-size:19px;  line-height:57px !important; background:url(https://ladolcevita-hotel.com/assets/plugins/revslider/rs-plugin/images/gradient/g40.png) repeat-x top;}
 
 
 .purchase:hover,
@@ -309,30 +309,30 @@ website:   	http://www.themepunch.com
 											}
 
 
-.tp-bullets.simplebullets.navbar						{ 	border:1px solid #666; border-bottom:1px solid #444; background:url(https://web.archive.org/web/20180814050138im_/http://ladolcevita-hotel.com/wp-content/plugins/revslider/rs-plugin/assets/boxed_bgtile.png); height:40px; padding:0px 10px; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px ;}
+.tp-bullets.simplebullets.navbar						{ 	border:1px solid #666; border-bottom:1px solid #444; background:url(https://ladolcevita-hotel.com/assets/plugins/revslider/rs-plugin/assets/boxed_bgtile.png); height:40px; padding:0px 10px; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px ;}
 
-.tp-bullets.simplebullets.navbar-old					{ 	 background:url(https://web.archive.org/web/20180814050138im_/http://ladolcevita-hotel.com/wp-content/plugins/revslider/rs-plugin/assets/navigdots_bgtile.png); height:35px; padding:0px 10px; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px ;}
+.tp-bullets.simplebullets.navbar-old					{ 	 background:url(https://ladolcevita-hotel.com/assets/plugins/revslider/rs-plugin/assets/navigdots_bgtile.png); height:35px; padding:0px 10px; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px ;}
 
 
-.tp-bullets.simplebullets.round .bullet					{	cursor:pointer; position:relative;	background:url(https://web.archive.org/web/20180814050138im_/http://ladolcevita-hotel.com/wp-content/plugins/revslider/rs-plugin/assets/bullet.png) no-repeat top left;	width:20px;	height:20px;  margin-right:0px; float:left; margin-top:-10px; margin-left:3px;}
+.tp-bullets.simplebullets.round .bullet					{	cursor:pointer; position:relative;	background:url(https://ladolcevita-hotel.com/assets/plugins/revslider/rs-plugin/assets/bullet.png) no-repeat top left;	width:20px;	height:20px;  margin-right:0px; float:left; margin-top:-10px; margin-left:3px;}
 .tp-bullets.simplebullets.round .bullet.last			{	margin-right:3px;}
 
-.tp-bullets.simplebullets.round-old .bullet				{	cursor:pointer; position:relative;	background:url(https://web.archive.org/web/20180814050138im_/http://ladolcevita-hotel.com/wp-content/plugins/revslider/rs-plugin/assets/bullets.png) no-repeat bottom left;	width:23px;	height:23px;  margin-right:0px; float:left; margin-top:-12px;}
+.tp-bullets.simplebullets.round-old .bullet				{	cursor:pointer; position:relative;	background:url(https://ladolcevita-hotel.com/assets/plugins/revslider/rs-plugin/assets/bullets.png) no-repeat bottom left;	width:23px;	height:23px;  margin-right:0px; float:left; margin-top:-12px;}
 .tp-bullets.simplebullets.round-old .bullet.last		{	margin-right:0px;}
 
 
 /**	SQUARE BULLETS **/
-.tp-bullets.simplebullets.square .bullet				{	cursor:pointer; position:relative;	background:url(https://web.archive.org/web/20180814050138im_/http://ladolcevita-hotel.com/wp-content/plugins/revslider/rs-plugin/assets/bullets2.png) no-repeat bottom left;	width:19px;	height:19px;  margin-right:0px; float:left; margin-top:-10px;}
+.tp-bullets.simplebullets.square .bullet				{	cursor:pointer; position:relative;	background:url(https://ladolcevita-hotel.com/assets/plugins/revslider/rs-plugin/assets/bullets2.png) no-repeat bottom left;	width:19px;	height:19px;  margin-right:0px; float:left; margin-top:-10px;}
 .tp-bullets.simplebullets.square .bullet.last			{	margin-right:0px;}
 
 
 /**	SQUARE BULLETS **/
-.tp-bullets.simplebullets.square-old .bullet			{	cursor:pointer; position:relative;	background:url(https://web.archive.org/web/20180814050138im_/http://ladolcevita-hotel.com/wp-content/plugins/revslider/rs-plugin/assets/bullets2.png) no-repeat bottom left;	width:19px;	height:19px;  margin-right:0px; float:left; margin-top:-10px;}
+.tp-bullets.simplebullets.square-old .bullet			{	cursor:pointer; position:relative;	background:url(https://ladolcevita-hotel.com/assets/plugins/revslider/rs-plugin/assets/bullets2.png) no-repeat bottom left;	width:19px;	height:19px;  margin-right:0px; float:left; margin-top:-10px;}
 .tp-bullets.simplebullets.square-old .bullet.last		{	margin-right:0px;}
 
 
 /** navbar NAVIGATION VERSION **/
-.tp-bullets.simplebullets.navbar .bullet			{	cursor:pointer; position:relative;	background:url(https://web.archive.org/web/20180814050138im_/http://ladolcevita-hotel.com/wp-content/plugins/revslider/rs-plugin/assets/bullet_boxed.png) no-repeat top left;	width:18px;	height:19px;   margin-right:5px; float:left; margin-top:10px;}
+.tp-bullets.simplebullets.navbar .bullet			{	cursor:pointer; position:relative;	background:url(https://ladolcevita-hotel.com/assets/plugins/revslider/rs-plugin/assets/bullet_boxed.png) no-repeat top left;	width:18px;	height:19px;   margin-right:5px; float:left; margin-top:10px;}
 
 .tp-bullets.simplebullets.navbar .bullet.first		{	margin-left:0px !important;}
 .tp-bullets.simplebullets.navbar .bullet.last		{	margin-right:0px !important;}
@@ -340,7 +340,7 @@ website:   	http://www.themepunch.com
 
 
 /** navbar NAVIGATION VERSION **/
-.tp-bullets.simplebullets.navbar-old .bullet			{	cursor:pointer; position:relative;	background:url(https://web.archive.org/web/20180814050138im_/http://ladolcevita-hotel.com/wp-content/plugins/revslider/rs-plugin/assets/navigdots.png) no-repeat bottom left;	width:15px;	height:15px;  margin-left:5px !important; margin-right:5px !important;float:left; margin-top:10px;}
+.tp-bullets.simplebullets.navbar-old .bullet			{	cursor:pointer; position:relative;	background:url(https://ladolcevita-hotel.com/assets/plugins/revslider/rs-plugin/assets/navigdots.png) no-repeat bottom left;	width:15px;	height:15px;  margin-left:5px !important; margin-right:5px !important;float:left; margin-top:10px;}
 .tp-bullets.simplebullets.navbar-old .bullet.first		{	margin-left:0px !important;}
 .tp-bullets.simplebullets.navbar-old .bullet.last		{	margin-right:0px !important;}
 
@@ -371,40 +371,40 @@ website:   	http://www.themepunch.com
 															-khtml-opacity: 0;
 															opacity: 0;
 														}
-.tp-leftarrow											{	z-index:100;cursor:pointer; position:relative;	background:url(https://web.archive.org/web/20180814050138im_/http://ladolcevita-hotel.com/wp-content/plugins/revslider/rs-plugin/assets/large_left.png) no-repeat top left;	width:40px;	height:40px;   }
-.tp-rightarrow											{	z-index:100;cursor:pointer; position:relative;	background:url(https://web.archive.org/web/20180814050138im_/http://ladolcevita-hotel.com/wp-content/plugins/revslider/rs-plugin/assets/large_right.png) no-repeat top left;	width:40px;	height:40px;   }
+.tp-leftarrow											{	z-index:100;cursor:pointer; position:relative;	background:url(https://ladolcevita-hotel.com/assets/plugins/revslider/rs-plugin/assets/large_left.png) no-repeat top left;	width:40px;	height:40px;   }
+.tp-rightarrow											{	z-index:100;cursor:pointer; position:relative;	background:url(https://ladolcevita-hotel.com/assets/plugins/revslider/rs-plugin/assets/large_right.png) no-repeat top left;	width:40px;	height:40px;   }
 
 
-.tp-leftarrow.round										{	z-index:100;cursor:pointer; position:relative;	background:url(https://web.archive.org/web/20180814050138im_/http://ladolcevita-hotel.com/wp-content/plugins/revslider/rs-plugin/assets/small_left.png) no-repeat top left;	width:19px;	height:14px;  margin-right:0px; float:left; margin-top:-7px;	}
-.tp-rightarrow.round									{	z-index:100;cursor:pointer; position:relative;	background:url(https://web.archive.org/web/20180814050138im_/http://ladolcevita-hotel.com/wp-content/plugins/revslider/rs-plugin/assets/small_right.png) no-repeat top left;	width:19px;	height:14px;  margin-right:0px; float:left;	margin-top:-7px;}
+.tp-leftarrow.round										{	z-index:100;cursor:pointer; position:relative;	background:url(https://ladolcevita-hotel.com/assets/plugins/revslider/rs-plugin/assets/small_left.png) no-repeat top left;	width:19px;	height:14px;  margin-right:0px; float:left; margin-top:-7px;	}
+.tp-rightarrow.round									{	z-index:100;cursor:pointer; position:relative;	background:url(https://ladolcevita-hotel.com/assets/plugins/revslider/rs-plugin/assets/small_right.png) no-repeat top left;	width:19px;	height:14px;  margin-right:0px; float:left;	margin-top:-7px;}
 
 
-.tp-leftarrow.round-old									{	z-index:100;cursor:pointer; position:relative;	background:url(https://web.archive.org/web/20180814050138im_/http://ladolcevita-hotel.com/wp-content/plugins/revslider/rs-plugin/assets/arrow_left.png) no-repeat top left;	width:26px;	height:26px;  margin-right:0px; float:left; margin-top:-13px;	}
-.tp-rightarrow.round-old								{	z-index:100;cursor:pointer; position:relative;	background:url(https://web.archive.org/web/20180814050138im_/http://ladolcevita-hotel.com/wp-content/plugins/revslider/rs-plugin/assets/arrow_right.png) no-repeat top left;	width:26px;	height:26px;  margin-right:0px; float:left;	margin-top:-13px;}
+.tp-leftarrow.round-old									{	z-index:100;cursor:pointer; position:relative;	background:url(https://ladolcevita-hotel.com/assets/plugins/revslider/rs-plugin/assets/arrow_left.png) no-repeat top left;	width:26px;	height:26px;  margin-right:0px; float:left; margin-top:-13px;	}
+.tp-rightarrow.round-old								{	z-index:100;cursor:pointer; position:relative;	background:url(https://ladolcevita-hotel.com/assets/plugins/revslider/rs-plugin/assets/arrow_right.png) no-repeat top left;	width:26px;	height:26px;  margin-right:0px; float:left;	margin-top:-13px;}
 
 
-.tp-leftarrow.navbar									{	z-index:100;cursor:pointer; position:relative;	background:url(https://web.archive.org/web/20180814050138im_/http://ladolcevita-hotel.com/wp-content/plugins/revslider/rs-plugin/assets/small_left_boxed.png) no-repeat top left;	width:20px;	height:15px;   float:left;	margin-right:6px; margin-top:12px;}
-.tp-rightarrow.navbar									{	z-index:100;cursor:pointer; position:relative;	background:url(https://web.archive.org/web/20180814050138im_/http://ladolcevita-hotel.com/wp-content/plugins/revslider/rs-plugin/assets/small_right_boxed.png) no-repeat top left;	width:20px;	height:15px;   float:left;	margin-left:6px; margin-top:12px;}
+.tp-leftarrow.navbar									{	z-index:100;cursor:pointer; position:relative;	background:url(https://ladolcevita-hotel.com/assets/plugins/revslider/rs-plugin/assets/small_left_boxed.png) no-repeat top left;	width:20px;	height:15px;   float:left;	margin-right:6px; margin-top:12px;}
+.tp-rightarrow.navbar									{	z-index:100;cursor:pointer; position:relative;	background:url(https://ladolcevita-hotel.com/assets/plugins/revslider/rs-plugin/assets/small_right_boxed.png) no-repeat top left;	width:20px;	height:15px;   float:left;	margin-left:6px; margin-top:12px;}
 
 
-.tp-leftarrow.navbar-old								{	z-index:100;cursor:pointer; position:relative;	background:url(https://web.archive.org/web/20180814050138im_/http://ladolcevita-hotel.com/wp-content/plugins/revslider/rs-plugin/assets/arrowleft.png) no-repeat top left;		width:9px;	height:16px;   float:left;	margin-right:6px; margin-top:10px;}
-.tp-rightarrow.navbar-old								{	z-index:100;cursor:pointer; position:relative;	background:url(https://web.archive.org/web/20180814050138im_/http://ladolcevita-hotel.com/wp-content/plugins/revslider/rs-plugin/assets/arrowright.png) no-repeat top left;	width:9px;	height:16px;   float:left;	margin-left:6px; margin-top:10px;}
+.tp-leftarrow.navbar-old								{	z-index:100;cursor:pointer; position:relative;	background:url(https://ladolcevita-hotel.com/assets/plugins/revslider/rs-plugin/assets/arrowleft.png) no-repeat top left;		width:9px;	height:16px;   float:left;	margin-right:6px; margin-top:10px;}
+.tp-rightarrow.navbar-old								{	z-index:100;cursor:pointer; position:relative;	background:url(https://ladolcevita-hotel.com/assets/plugins/revslider/rs-plugin/assets/arrowright.png) no-repeat top left;	width:9px;	height:16px;   float:left;	margin-left:6px; margin-top:10px;}
 
 .tp-leftarrow.navbar-old.thumbswitharrow				{	margin-right:10px; }
 .tp-rightarrow.navbar-old.thumbswitharrow				{	margin-left:0px; }
 
-.tp-leftarrow.square									{	z-index:100;cursor:pointer; position:relative;	background:url(https://web.archive.org/web/20180814050138im_/http://ladolcevita-hotel.com/wp-content/plugins/revslider/rs-plugin/assets/arrow_left2.png) no-repeat top left;	width:12px;	height:17px;   float:left;	margin-right:0px; margin-top:-9px;}
-.tp-rightarrow.square									{	z-index:100;cursor:pointer; position:relative;	background:url(https://web.archive.org/web/20180814050138im_/http://ladolcevita-hotel.com/wp-content/plugins/revslider/rs-plugin/assets/arrow_right2.png) no-repeat top left;	width:12px;	height:17px;   float:left;	margin-left:0px; margin-top:-9px;}
+.tp-leftarrow.square									{	z-index:100;cursor:pointer; position:relative;	background:url(https://ladolcevita-hotel.com/assets/plugins/revslider/rs-plugin/assets/arrow_left2.png) no-repeat top left;	width:12px;	height:17px;   float:left;	margin-right:0px; margin-top:-9px;}
+.tp-rightarrow.square									{	z-index:100;cursor:pointer; position:relative;	background:url(https://ladolcevita-hotel.com/assets/plugins/revslider/rs-plugin/assets/arrow_right2.png) no-repeat top left;	width:12px;	height:17px;   float:left;	margin-left:0px; margin-top:-9px;}
 
 
-.tp-leftarrow.square-old								{	z-index:100;cursor:pointer; position:relative;	background:url(https://web.archive.org/web/20180814050138im_/http://ladolcevita-hotel.com/wp-content/plugins/revslider/rs-plugin/assets/arrow_left2.png) no-repeat top left;	width:12px;	height:17px;   float:left;	margin-right:0px; margin-top:-9px;}
-.tp-rightarrow.square-old								{	z-index:100;cursor:pointer; position:relative;	background:url(https://web.archive.org/web/20180814050138im_/http://ladolcevita-hotel.com/wp-content/plugins/revslider/rs-plugin/assets/arrow_right2.png) no-repeat top left;	width:12px;	height:17px;   float:left;	margin-left:0px; margin-top:-9px;}
+.tp-leftarrow.square-old								{	z-index:100;cursor:pointer; position:relative;	background:url(https://ladolcevita-hotel.com/assets/plugins/revslider/rs-plugin/assets/arrow_left2.png) no-repeat top left;	width:12px;	height:17px;   float:left;	margin-right:0px; margin-top:-9px;}
+.tp-rightarrow.square-old								{	z-index:100;cursor:pointer; position:relative;	background:url(https://ladolcevita-hotel.com/assets/plugins/revslider/rs-plugin/assets/arrow_right2.png) no-repeat top left;	width:12px;	height:17px;   float:left;	margin-left:0px; margin-top:-9px;}
 
 
-.tp-leftarrow.default									{	z-index:100;cursor:pointer; position:relative;	background:url(https://web.archive.org/web/20180814050138im_/http://ladolcevita-hotel.com/wp-content/plugins/revslider/rs-plugin/assets/large_left.png) no-repeat 0 0;	width:40px;	height:40px;
+.tp-leftarrow.default									{	z-index:100;cursor:pointer; position:relative;	background:url(https://ladolcevita-hotel.com/assets/plugins/revslider/rs-plugin/assets/large_left.png) no-repeat 0 0;	width:40px;	height:40px;
 
 														}
-.tp-rightarrow.default									{	z-index:100;cursor:pointer; position:relative;	background:url(https://web.archive.org/web/20180814050138im_/http://ladolcevita-hotel.com/wp-content/plugins/revslider/rs-plugin/assets/large_right.png) no-repeat 0 0;	width:40px;	height:40px;
+.tp-rightarrow.default									{	z-index:100;cursor:pointer; position:relative;	background:url(https://ladolcevita-hotel.com/assets/plugins/revslider/rs-plugin/assets/large_right.png) no-repeat 0 0;	width:40px;	height:40px;
 
 														}
 
@@ -471,7 +471,7 @@ website:   	http://www.themepunch.com
 /************************************
 		-	TP BANNER TIMER		-
 *************************************/
-.tp-bannertimer								{	width:100%; height:10px; background:url(https://web.archive.org/web/20180814050138im_/http://ladolcevita-hotel.com/wp-content/plugins/revslider/rs-plugin/assets/timer.png);position:absolute; z-index:200; top:0px;}
+.tp-bannertimer								{	width:100%; height:10px; background:url(https://ladolcevita-hotel.com/assets/plugins/revslider/rs-plugin/assets/timer.png);position:absolute; z-index:200; top:0px;}
 .tp-bannertimer.tp-bottom					{	top:auto; bottom:0px !important;height:5px;}
 
 
@@ -523,33 +523,10 @@ website:   	http://www.themepunch.com
 
 /*  CAPTION SLIDELINK   **/
 .caption.slidelink a div,
-.tp-caption.slidelink a div {	width:3000px; height:1500px;  background:url(https://web.archive.org/web/20180814050138im_/http://ladolcevita-hotel.com/wp-content/plugins/revslider/rs-plugin/assets/coloredbg.png) repeat;}
+.tp-caption.slidelink a div {	width:3000px; height:1500px;  background:url(https://ladolcevita-hotel.com/assets/plugins/revslider/rs-plugin/assets/coloredbg.png) repeat;}
 
-.tp-loader 	{	background:url(https://web.archive.org/web/20180814050138im_/http://ladolcevita-hotel.com/wp-content/plugins/revslider/rs-plugin/assets/loader.gif) no-repeat 10px 10px; background-color:#fff;  margin:-22px -22px; top:50%; left:50%; z-index:10000; position:absolute;width:44px;height:44px;
+.tp-loader 	{	background:url(https://ladolcevita-hotel.com/assets/plugins/revslider/rs-plugin/assets/loader.gif) no-repeat 10px 10px; background-color:#fff;  margin:-22px -22px; top:50%; left:50%; z-index:10000; position:absolute;width:44px;height:44px;
 				border-radius: 3px;
 				-moz-border-radius: 3px;
 				-webkit-border-radius: 3px;
 			}
-
-
-/*
-     FILE ARCHIVED ON 05:01:38 Aug 14, 2018 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 04:08:30 Feb 05, 2021.
-     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
-
-     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
-     SECTION 108(a)(3)).
-*/
-/*
-playback timings (ms):
-  exclusion.robots: 0.248
-  esindex: 0.014
-  PetaboxLoader3.datanode: 247.083 (5)
-  RedisCDXSource: 0.747
-  LoadShardBlock: 188.619 (3)
-  exclusion.robots.policy: 0.232
-  CDXLines.iter: 26.998 (3)
-  captures_list: 220.917
-  load_resource: 714.012 (2)
-  PetaboxLoader3.resolve: 70.429 (2)
-*/
