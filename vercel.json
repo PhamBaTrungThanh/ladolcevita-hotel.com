@@ -1,0 +1,9 @@
+{
+  "redirects": [
+    {
+      "source": "/reservation",
+      "destination": "https://book.securebookings.net/roomrate?id=e521669c-f400-1576476453-49f0-b214-ce989a8ee922",
+      "permanent": true
+    }
+  ]
+}
